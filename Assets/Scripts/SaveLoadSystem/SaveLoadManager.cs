@@ -62,7 +62,7 @@ public class SaveLoadManager :MonoBehaviour
 
             // Save shape XML data to the selected file
             SaveShapeXmlToFile(curr);
-            Debug.Log("XML SAVED");
+            //Debug.Log("XML SAVED");
         }
 
 
@@ -77,13 +77,13 @@ public class SaveLoadManager :MonoBehaviour
             filePath = openFileDialog.FileName;
 
             // Load XML data from the selected file
-            Debug.Log("File OPENED");
+           // Debug.Log("File OPENED");
             return LoadXmlShapeData();
            
         }
         else
         {
-            Debug.Log("file not found");
+           // Debug.Log("file not found");
             //return default shape
             return (ShapesEnum.CUBE, Color.white, Quaternion.identity); 
         }
