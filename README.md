@@ -7,7 +7,9 @@ shape by holding and dragging the right mouse button, use stable directional lig
 default light).
 
 • Your designed UI won’t be assessed however it should be responsive to window changes.
+
 • Make sure the project is well-structured and well-documented, using a Factory design pattern is
 mandatory
+
 • Make the player able to save and load shapes with color and rotation using XML.
  
