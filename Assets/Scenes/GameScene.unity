@@ -152,8 +152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8a5b7be4bd1b854d9a0fd294ed7b121, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ShapeFactory: {fileID: 1563381504}
-  CurrShape: {fileID: 0}
+  shapeFactory: {fileID: 1563381504}
 --- !u!4 &1150278
 Transform:
   m_ObjectHideFlags: 0
