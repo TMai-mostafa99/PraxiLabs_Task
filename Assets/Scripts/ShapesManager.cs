@@ -16,20 +16,10 @@ public class ShapesManager : MonoBehaviour
     }
 
     //------------Buttons Functions-------------//
-    public void GenerateSphereShape()
+    public void GenerateShape(int Enumindx)
     {
        Destroy(currShape.gameObject);
-        currShape = shapeFactory.GenerateShape(ShapesEnum.SPHERE, defColor, defRotation);
-    }
-    public void GenerateCubeShape()
-    {
-        Destroy(currShape.gameObject);
-        currShape = shapeFactory.GenerateShape(ShapesEnum.CUBE, defColor, defRotation);
-    }
-    public void GenerateCylinderShape()
-    {
-        Destroy(currShape.gameObject);
-        currShape = shapeFactory.GenerateShape(ShapesEnum.CYLINDER, defColor, defRotation);
+        currShape = shapeFactory.GenerateShape((ShapesEnum)Enumindx, defColor, defRotation);
     }
 
     public void ChangeShapeColorToGreen()
